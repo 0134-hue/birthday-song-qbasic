@@ -1,0 +1,44 @@
+10 REM Birthday Song in QBasic
+20 REM This program plays the Happy Birthday song
+30 REM
+40 PRINT "Happy Birthday Song"
+50 PRINT "===================="
+60 PRINT
+70 REM Notes: C=262, D=294, E=330, F=349, G=392, A=440, B=494
+80 REM Duration: 1=whole, 2=half, 4=quarter, 8=eighth
+90 REM
+100 PRINT "Playing Happy Birthday..."
+110 PRINT
+120 REM Happy Birthday to you (verse 1)
+130 SOUND 330, 2: REM E
+140 SOUND 330, 2: REM E
+150 SOUND 349, 4: REM F
+160 SOUND 330, 4: REM E
+170 SOUND 392, 4: REM G
+180 SOUND 370, 8: REM F#
+190 SOUND 330, 2: REM E
+200 SOUND 330, 2: REM E
+210 SOUND 349, 4: REM F
+220 SOUND 330, 4: REM E
+230 SOUND 440, 4: REM A
+240 SOUND 392, 8: REM G
+250 REM Happy Birthday to you (verse 2)
+260 SOUND 330, 2: REM E
+270 SOUND 330, 2: REM E
+280 SOUND 330, 2: REM E
+290 SOUND 262, 4: REM C
+300 SOUND 330, 4: REM E
+310 SOUND 392, 8: REM G
+320 REM Many Happy Returns (verse 3)
+330 SOUND 392, 2: REM G
+340 SOUND 392, 2: REM G
+350 SOUND 392, 2: REM G
+360 SOUND 392, 4: REM G
+370 SOUND 330, 4: REM E
+380 SOUND 349, 4: REM F
+390 SOUND 330, 4: REM E
+400 SOUND 294, 8: REM D
+410 SOUND 262, 8: REM C
+420 REM
+430 PRINT "Done! Happy Birthday!"
+440 END
